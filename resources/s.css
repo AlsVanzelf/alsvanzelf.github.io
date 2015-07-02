@@ -1,0 +1,120 @@
+body {
+	font-family: Verdana;
+	font-size: 16px;
+}
+.container {
+	width: 835px;
+	margin: 0 auto;
+}
+
+.container > section {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #02AAB3;
+}
+h5 {
+	color: #999;
+	font-size: 16px;
+}
+.popover {
+	max-width: none;
+}
+
+header {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+header h3 {
+}
+header p {
+	margin-bottom: 0;
+}
+
+#intro {
+	font-size: 20px;
+}
+#intro p {
+	margin-bottom: 29px;
+}
+#intro img {
+	float: right;
+	margin-top: -2em;
+	margin-right: 2em;
+	border-radius: 50%;
+}
+#contact {
+	margin-top: 2em;
+	padding-top: 10px;
+	-webkit-transition: background-color .5s;
+	        transition: background-color .5s;
+}
+#contact.focus {
+	background-color: rgba(252, 204, 13, .4);
+	-webkit-transition: background-color .5s;
+	        transition: background-color .5s;
+}
+#contact h3 {
+	margin-top: 0;
+}
+#contact textarea {
+	height: 6.75em;
+}
+
+
+#offers .offer {
+	float: right;
+	margin-bottom: 2em;
+	margin-left: 3px; /* default -15 + 18 */
+	width: 400px; /* default 418 */
+}
+#offers .offer h4 small {
+	margin-left: 1em;
+}
+#offers .offer h4 small a {
+	color: inherit;
+}
+#offers ul {
+	padding-left: 2.2em;
+	text-indent: -0.67em;
+	list-style-type: none;
+}
+#offers li:before {
+	display: inline-block;
+	padding-right: 1em;
+	font-family: FontAwesome;
+	font-size: 11px;
+	content: "\f068";
+}
+#offers .action p {
+	margin: 5px 0;
+}
+#offers .action a {
+	text-decoration: none;
+}
+
+#startups {
+}
+#startups .logo {
+	height: 100px; /* equals max image height */
+	white-space: nowrap;
+	text-align: center;
+	margin: 1em 0;
+}
+#startups .logo .alignment-helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+#startups .logo img {
+	vertical-align: middle;
+	max-height: 100px;
+}
+
+footer {
+	margin-top: 2em;
+	font-size: x-small;
+}
