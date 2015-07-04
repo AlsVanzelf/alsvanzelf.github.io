@@ -50,7 +50,7 @@
 					<p>Bel op <span class="text-muted">+31 6</span> 57 157 653 of schrijf hier een berichtje.</p>
 					<form action="mailto:lode@alsvanzelf.nl">
 						<div class="form-group">
-							<textarea class="form-control" name="body" placeholder="Het liefst 140 karakters of minder. Anders is bellen of face-to-face beter." tabindex="1"></textarea>
+							<textarea id="message" class="form-control" name="body" placeholder="Het liefst 140 karakters of minder. Anders is bellen of face-to-face beter." tabindex="1"></textarea>
 						</div>
 						<div class="form-group">
 							<label for="availability">Hoe ben je bereikbaar?</label>
@@ -58,6 +58,17 @@
 						</div>
 						<div class="form-group">
 							<input type="submit" value="Versturen" class="btn btn-success" tabindex="3">
+						</div>
+						
+						<div class="alert alert-success hidden" role="alert">
+							<p>Thanks! Ik bel/mail je snel.</p>
+						</div>
+						<div class="alert alert-warning hidden" role="alert">
+							<p>
+								Ajj, er ging iets mis... Sorry.<br>
+								Kun je even bellen of het mailen?<br>
+								<span class="email"></span>
+							</p>
 						</div>
 					</form>
 				</div>
