@@ -3,8 +3,13 @@ body {
 	font-size: 16px;
 }
 .container {
-	width: 835px;
+	max-width: 835px;
 	margin: 0 auto;
+}
+@media(max-width:767px) {
+	.container {
+		max-width: 500px;
+	}
 }
 
 .container > section {
@@ -28,8 +33,6 @@ header {
 	border-top-left-radius: 0 !important;
 	border-top-right-radius: 0 !important;
 }
-header h3 {
-}
 header p {
 	margin-bottom: 0;
 }
@@ -46,6 +49,7 @@ header p {
 	margin-right: 2em;
 	border-radius: 50%;
 }
+
 #contact {
 	margin-top: 2em;
 	padding-top: 10px;
@@ -64,12 +68,8 @@ header p {
 	height: 6.75em;
 }
 
-
 #offers .offer {
-	float: right;
 	margin-bottom: 2em;
-	margin-left: 3px; /* default -15 + 18 */
-	width: 400px; /* default 418 */
 }
 #offers .offer h4 small {
 	margin-left: 1em;
@@ -96,22 +96,8 @@ header p {
 	text-decoration: none;
 }
 
-#startups {
-}
-#startups .logo {
-	height: 100px; /* equals max image height */
-	white-space: nowrap;
-	text-align: center;
-	margin: 1em 0;
-}
-#startups .logo .alignment-helper {
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
-#startups .logo img {
-	vertical-align: middle;
-	max-height: 100px;
+#startups h3 {
+	margin-bottom: 1em;
 }
 
 footer {
