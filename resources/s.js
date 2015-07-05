@@ -56,8 +56,6 @@ $('#contact form').on('submit', function(event){
 	}).done(function(){
 		$('.alert-success', form).removeClass('hidden');
 	}).fail(function(){
-		var email = 'lode@' + window.location.hostname;
-		$('.alert-warning .email', form).html('<a href="mailto:' + email + '">' + email + '</a>');
 		$('.alert-warning', form).removeClass('hidden');
 	}).always(function(){
 		$('html, body').animate({
