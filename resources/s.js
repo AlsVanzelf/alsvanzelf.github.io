@@ -62,6 +62,15 @@ $('#contact form').on('submit', function(event){
 			scrollTop: $(form).offset().top + ($(form).height() / 2),
 		}, 100);
 	});
+	
+	$.ajax({
+		url: 'https://maker.ifttt.com/trigger/alsvanzelf_contact_form/with/key/gmYMqHqw1b_0v7avg84r-j-5aWO1SjPVaDSeWibwF6O',
+		method: 'POST',
+		data: {
+			value1: $('#message', form).val(),
+			value2: $('#availability', form).val()
+		}
+	});
 });
 
 });
