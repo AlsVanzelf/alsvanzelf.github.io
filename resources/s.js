@@ -28,6 +28,10 @@ $('.offer .action a').popover({
 
 // show more from each offer
 $('.offer').each(function(){
+	if ($('.panel-body > :not(:first-child)', this).length < 1) {
+		return;
+	}
+	
 	$('.panel-body > :not(:first-child)', this).addClass('hidden');
 	$('.panel-body > :first-child', this).append('<a href="#" class="toggler pull-right">Meer &hellip;</a>');
 });
