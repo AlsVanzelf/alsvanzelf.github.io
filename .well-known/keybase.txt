@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lodeclaassen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lodeclaassen.nl
+  * I am lodeclaassen (https://keybase.io/lodeclaassen) on keybase.
+  * I have a public key ASADUXSi1gOcrLqiguXg3FdZC5r4b19OyGeAKXOzBLbYLgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120035174a2d6039cacbaa282e5e0dc57590b9af86f5f4ec867802973b304b6d82e0a",
+      "host": "keybase.io",
+      "kid": "0120035174a2d6039cacbaa282e5e0dc57590b9af86f5f4ec867802973b304b6d82e0a",
+      "uid": "88f720668de8038e77a38ca1415d9619",
+      "username": "lodeclaassen"
+    },
+    "merkle_root": {
+      "ctime": 1524841328,
+      "hash": "f377fbd410aa3e710823d9c8264b45340153d142096c2ad71899728b2794d764e81e78309d9cbfc46793390f9a8c8ca8d45b3f5ef1dfc971bcd3b6f01ab102fc",
+      "hash_meta": "2934e099933700886624a57dfa3cd3bf586cfb8c1c18dc24367433782b7a89e8",
+      "seqno": 2450196
+    },
+    "service": {
+      "entropy": "PHmFHfBApw7EHj4XunrR/P0H",
+      "hostname": "lodeclaassen.nl",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1524841373,
+  "expire_in": 504576000,
+  "prev": "a3242cf7c2fb33cf991b421d43f25d85dd732710dc2d29bd0c605d708235d985",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgA1F0otYDnKy6ooLl4NxXWQua+G9fTshngClzswS22C4Kp3BheWxvYWTESpcCB8QgoyQs98L7M8+ZG0IdQ/Jdhd1zJxDcLSm9DGBdcII12YXEIAdRSZLyUXQeFnDwFhxCjhdTTugJRRV0eEL4X/J9oHOFAgHCo3NpZ8RAK7XCR17tYFRRtiz3iBQW+GfSLKLCjLwzkSYI25T+zLS+BzaYnR0MW0fKS801s/jaGKTUwYDdixBolejsQ5Y+AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBgycwAmaOSxOYvcl8KvsdtcJVlNOt+q3QBKM6LmypIOo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lodeclaassen
+
+==================================================================
